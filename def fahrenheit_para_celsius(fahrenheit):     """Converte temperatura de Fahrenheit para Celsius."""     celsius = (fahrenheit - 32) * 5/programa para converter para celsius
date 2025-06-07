@@ -1,0 +1,11 @@
+def fahrenheit_para_celsius(fahrenheit):
+    """Converte temperatura de Fahrenheit para Celsius."""
+    celsius = (fahrenheit - 32) * 5/9
+    return celsius
+
+# Solicita ao usuário a temperatura em Fahrenheit
+fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+
+# Converte para Celsius e exibe o resultado
+celsius = fahrenheit_para_celsius(fahrenheit)
+print("A temperatura em Celsius é", celsius, "C")
